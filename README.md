@@ -43,7 +43,7 @@
 ║  OPERATIVE ID: LIMO-25                    ║
 ║  NAME: ARIJIT DAS                          ║
 ║  BASE: West Bengal, India                 ║
-║  HQ: B.Tech CSE                            ║
+║  HQ: B.Tech CSE-AIML                            ║
 ║  DIVISION: SOFTWARE DEVELOPMENT            ║
 ║  CLEARANCE: Level 5 (Root)                 ║
 ║  STATUS: Broadcasting...                   ║
