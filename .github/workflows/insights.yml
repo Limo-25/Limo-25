@@ -1,0 +1,21 @@
+name: Update GitHub Insights
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: urmzd/github-insights@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: Limo-25
+          output-dir: assets/insights
+          readme-path: none   # we're embedding manually in our own README
